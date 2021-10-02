@@ -4,12 +4,13 @@ const project = new AwsCdkConstructLibrary({
   authorAddress: "niko@cloudgardener.dev",
   cdkVersion: "1.125.0",
   defaultReleaseBranch: "main",
-  name: "cdk-aws-fargate-github-runner",
+  name: "@cloudgardener/cdk-aws-fargate-github-runner",
   repositoryUrl:
-    "https://github.com/nikovirtala/cdk-aws-fargate-github-runner.git",
+    "https://github.com/cloudgardener/cdk-aws-fargate-github-runner.git",
   license: "MIT",
+  npmAccess: "public",
   catalog: {
-    announce: false,
+    announce: true,
     twitter: "nikovirtala",
   },
   eslint: true,

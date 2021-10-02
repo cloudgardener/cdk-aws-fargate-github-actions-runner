@@ -2,33 +2,33 @@
 
 ## Constructs <a name="Constructs"></a>
 
-### GithubActionsRunner <a name="cdk-aws-fargate-github-runner.GithubActionsRunner"></a>
+### GithubActionsRunner <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner"></a>
 
 - *Implements:* [`@aws-cdk/aws-ec2.IConnectable`](#@aws-cdk/aws-ec2.IConnectable)
 
-#### Initializers <a name="cdk-aws-fargate-github-runner.GithubActionsRunner.Initializer"></a>
+#### Initializers <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner.Initializer"></a>
 
 ```typescript
-import { GithubActionsRunner } from 'cdk-aws-fargate-github-runner'
+import { GithubActionsRunner } from '@cloudgardener/cdk-aws-fargate-github-runner'
 
 new GithubActionsRunner(scope: Construct, id: string, props: GithubActionsRunnerProps)
 ```
 
-##### `scope`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunner.parameter.scope"></a>
+##### `scope`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner.parameter.scope"></a>
 
 - *Type:* [`@aws-cdk/core.Construct`](#@aws-cdk/core.Construct)
 
 ---
 
-##### `id`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunner.parameter.id"></a>
+##### `id`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner.parameter.id"></a>
 
 - *Type:* `string`
 
 ---
 
-##### `props`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunner.parameter.props"></a>
+##### `props`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner.parameter.props"></a>
 
-- *Type:* [`cdk-aws-fargate-github-runner.GithubActionsRunnerProps`](#cdk-aws-fargate-github-runner.GithubActionsRunnerProps)
+- *Type:* [`@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps`](#@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps)
 
 ---
 
@@ -36,7 +36,7 @@ new GithubActionsRunner(scope: Construct, id: string, props: GithubActionsRunner
 
 #### Properties <a name="Properties"></a>
 
-##### `connections`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunner.property.connections"></a>
+##### `connections`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner.property.connections"></a>
 
 ```typescript
 public readonly connections: Connections;
@@ -48,7 +48,7 @@ Makes runner "connectable".
 
 ---
 
-##### `role`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunner.property.role"></a>
+##### `role`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunner.property.role"></a>
 
 ```typescript
 public readonly role: IRole;
@@ -63,19 +63,19 @@ The IAM role associated with this runner.
 
 ## Structs <a name="Structs"></a>
 
-### GithubActionsRunnerProps <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps"></a>
+### GithubActionsRunnerProps <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps"></a>
 
 Properties of the GithubActionsRunner.
 
 #### Initializer <a name="[object Object].Initializer"></a>
 
 ```typescript
-import { GithubActionsRunnerProps } from 'cdk-aws-fargate-github-runner'
+import { GithubActionsRunnerProps } from '@cloudgardener/cdk-aws-fargate-github-runner'
 
 const githubActionsRunnerProps: GithubActionsRunnerProps = { ... }
 ```
 
-##### `githubToken`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.githubToken"></a>
+##### `githubToken`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.githubToken"></a>
 
 ```typescript
 public readonly githubToken: Secret;
@@ -87,7 +87,7 @@ Secret containing a GitHub Personal Access Token to be used for the runner authe
 
 ---
 
-##### `runnerContext`<sup>Required</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.runnerContext"></a>
+##### `runnerContext`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.runnerContext"></a>
 
 ```typescript
 public readonly runnerContext: string;
@@ -99,7 +99,7 @@ The GitHub repository to use for the runner.
 
 ---
 
-##### `cluster`<sup>Optional</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.cluster"></a>
+##### `cluster`<sup>Optional</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.cluster"></a>
 
 ```typescript
 public readonly cluster: ICluster;
@@ -112,7 +112,7 @@ The ECS cluster to run the task in.
 
 ---
 
-##### `logRetentionDays`<sup>Optional</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.logRetentionDays"></a>
+##### `logRetentionDays`<sup>Optional</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.logRetentionDays"></a>
 
 ```typescript
 public readonly logRetentionDays: number;
@@ -125,7 +125,7 @@ How long to store the GitHub runner logs.
 
 ---
 
-##### `useSpotCapacity`<sup>Optional</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.useSpotCapacity"></a>
+##### `useSpotCapacity`<sup>Optional</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.useSpotCapacity"></a>
 
 ```typescript
 public readonly useSpotCapacity: boolean;
@@ -138,7 +138,7 @@ Use Fargate SPOT capacity.
 
 ---
 
-##### `vpc`<sup>Optional</sup> <a name="cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.vpc"></a>
+##### `vpc`<sup>Optional</sup> <a name="@cloudgardener/cdk-aws-fargate-github-runner.GithubActionsRunnerProps.property.vpc"></a>
 
 ```typescript
 public readonly vpc: IVpc;

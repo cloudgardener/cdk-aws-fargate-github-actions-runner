@@ -1,8 +1,8 @@
 # cdk-aws-fargate-github-runner
 
-Deploy GitHub Actions self-hosted runner to AWS Fargate.
+CDK construct library to deploy [GitHub Actions self-hosted runner](https://docs.github.com/en/actions/hosting-your-own-runners/about-self-hosted-runners) to AWS Fargate.
 
-This is continuation to my [`cdk-github-actions-runner`](https://github.com/nikovirtala/cdk-github-actions-runner) proof-of-concept.
+This is continuation to [`cdk-github-actions-runner`](https://github.com/nikovirtala/cdk-github-actions-runner) proof-of-concept.
 
 ## Example
 

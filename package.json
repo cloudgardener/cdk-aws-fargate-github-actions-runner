@@ -1,5 +1,6 @@
 {
   "name": "@cloudgardener/cdk-aws-fargate-github-runner",
+  "description": "CDK construct library to deploy GitHub Actions self-hosted runner to AWS Fargate.",
   "repository": {
     "type": "git",
     "url": "https://github.com/cloudgardener/cdk-aws-fargate-github-runner.git"
@@ -63,7 +64,12 @@
   },
   "bundledDependencies": [],
   "keywords": [
-    "cdk"
+    "aws",
+    "cdk",
+    "fargate",
+    "github",
+    "github-actions",
+    "runner"
   ],
   "main": "lib/index.js",
   "license": "MIT",

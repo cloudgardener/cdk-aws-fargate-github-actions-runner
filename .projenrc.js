@@ -26,7 +26,15 @@ const project = new AwsCdkConstructLibrary({
     announce: true,
     twitter: "nikovirtala",
   },
-  keywords: ["aws", "fargate", "github", "github-actions", "runner"],
+  keywords: [
+    "aws",
+    "cdk",
+    "aws-cdk",
+    "fargate",
+    "github",
+    "github-actions",
+    "runner",
+  ],
   eslint: true,
   eslintOptions: {
     prettier: true,

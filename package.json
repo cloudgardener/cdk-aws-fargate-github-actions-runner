@@ -65,6 +65,7 @@
   "bundledDependencies": [],
   "keywords": [
     "aws",
+    "aws-cdk",
     "cdk",
     "fargate",
     "github",

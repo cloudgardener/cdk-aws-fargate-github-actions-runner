@@ -1,9 +1,9 @@
 {
-  "name": "@cloudgardener/cdk-aws-fargate-github-runner",
+  "name": "@cloudgardener/cdk-aws-fargate-github-actions-runner",
   "description": "CDK construct library to deploy GitHub Actions self-hosted runner to AWS Fargate.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloudgardener/cdk-aws-fargate-github-runner.git"
+    "url": "https://github.com/cloudgardener/cdk-aws-fargate-github-actions-runner.git"
   },
   "scripts": {
     "clobber": "npx projen clobber",

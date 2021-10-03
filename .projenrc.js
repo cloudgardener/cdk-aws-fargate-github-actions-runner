@@ -1,10 +1,10 @@
 const { AwsCdkConstructLibrary } = require("projen");
 const project = new AwsCdkConstructLibrary({
-  name: "@cloudgardener/cdk-aws-fargate-github-runner",
+  name: "@cloudgardener/cdk-aws-fargate-github-actions-runner",
   description:
     "CDK construct library to deploy GitHub Actions self-hosted runner to AWS Fargate.",
   repositoryUrl:
-    "https://github.com/cloudgardener/cdk-aws-fargate-github-runner.git",
+    "https://github.com/cloudgardener/cdk-aws-fargate-github-actions-runner.git",
   license: "MIT",
   authorName: "Niko Virtala",
   authorAddress: "niko@cloudgardener.dev",

@@ -7,8 +7,10 @@ This is continuation to [`cdk-github-actions-runner`](https://github.com/nikovir
 ## Example
 
 ```ts
-const app = new App();
+import { App, Stack } from "@aws-cdk/core";
+import { GithubActionsRunner } from "@cloudgardener/cdk-aws-fargate-github-runner";
 
+const app = new App();
 const stack = new Stack(app, "stack");
 
 // Get GitHub token e.g. from SSM Parameter Store

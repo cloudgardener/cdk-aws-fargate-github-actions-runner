@@ -1,15 +1,26 @@
 const { AwsCdkConstructLibrary } = require("projen");
 const project = new AwsCdkConstructLibrary({
-  authorName: "Niko Virtala",
-  authorAddress: "niko@cloudgardener.dev",
-  cdkVersion: "1.125.0",
-  defaultReleaseBranch: "main",
   name: "@cloudgardener/cdk-aws-fargate-github-runner",
   description:
     "CDK construct library to deploy GitHub Actions self-hosted runner to AWS Fargate.",
   repositoryUrl:
     "https://github.com/cloudgardener/cdk-aws-fargate-github-runner.git",
   license: "MIT",
+  authorName: "Niko Virtala",
+  authorAddress: "niko@cloudgardener.dev",
+  cdkVersion: "1.125.0",
+  defaultReleaseBranch: "main",
+  depsUpgradeOptions: {
+    ignoreProjen: false,
+    workflowOptions: {
+      labels: ["auto-approve", "auto-merge"],
+      secret: "AUTOMATION_TOKEN",
+    },
+  },
+  autoApproveOptions: {
+    secret: "GITHUB_TOKEN",
+    allowedUsernames: ["nikovirtala"],
+  },
   npmAccess: "public",
   catalog: {
     announce: true,

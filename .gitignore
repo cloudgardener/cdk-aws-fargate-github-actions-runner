@@ -37,11 +37,11 @@ jspm_packages/
 !/.mergify.yml
 !/.github/pull_request_template.md
 !/test/
+!/tsconfig.dev.json
 !/src/
 /lib
 /dist/
 !/.eslintrc.json
-!/tsconfig.eslint.json
 .jsii
 tsconfig.json
 !/API.md

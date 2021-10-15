@@ -43,12 +43,12 @@
     "eslint-plugin-prettier": "^4.0.0",
     "jsii": "^1.39.0",
     "jsii-diff": "^1.39.0",
-    "jsii-docgen": "^3.7.5",
+    "jsii-docgen": "^3.7.7",
     "jsii-pacmak": "^1.39.0",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.30.0",
+    "projen": "^0.30.2",
     "standard-version": "^9",
     "typescript": "^4.4.4"
   },
@@ -56,10 +56,10 @@
     "constructs": "^3.2.27"
   },
   "dependencies": {
-    "@aws-cdk/aws-ec2": "^1.127.0",
-    "@aws-cdk/aws-ecs": "^1.127.0",
-    "@aws-cdk/aws-iam": "^1.127.0",
-    "@aws-cdk/core": "^1.127.0"
+    "@aws-cdk/aws-ec2": "^1.128.0",
+    "@aws-cdk/aws-ecs": "^1.128.0",
+    "@aws-cdk/aws-iam": "^1.128.0",
+    "@aws-cdk/core": "^1.128.0"
   },
   "bundledDependencies": [],
   "keywords": [

@@ -3054,10 +3054,10 @@ jsii-diff@^1.39.0:
     typescript "~3.9.10"
     yargs "^16.2.0"
 
-jsii-docgen@^3.7.8:
-  version "3.7.8"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.7.8.tgz#0350a1cfabf9e75011bc72a707ec270b42ee092b"
-  integrity sha512-7el8j9auODXJH4eZBrm9VoWuN1HUPfHEfedL7bRKWQpWQrOAbMH5mtSZNwxckQpvhL3szTG8JcYcSJEM3gibwg==
+jsii-docgen@^3.7.9:
+  version "3.7.9"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.7.9.tgz#1dde63f0505970925bccfa0d59040aaf5fd3d77f"
+  integrity sha512-b3ovYPvzDBLzqNmmcLK87N+zyajiJP5P7Ux0BJI/qQ3bzG79RVa5SdmsfMqWi94CAxgaHGC+emkzokcbCPBRUA==
   dependencies:
     "@jsii/spec" "^1.39.0"
     case "^1.6.3"

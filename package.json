@@ -47,7 +47,7 @@
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.31.16",
+    "projen": "^0.31.17",
     "standard-version": "^9",
     "typescript": "^4.4.4"
   },
@@ -55,10 +55,10 @@
     "constructs": "^3.2.27"
   },
   "dependencies": {
-    "@aws-cdk/aws-ec2": "^1.129.0",
-    "@aws-cdk/aws-ecs": "^1.129.0",
-    "@aws-cdk/aws-iam": "^1.129.0",
-    "@aws-cdk/core": "^1.129.0"
+    "@aws-cdk/aws-ec2": "^1.130.0",
+    "@aws-cdk/aws-ecs": "^1.130.0",
+    "@aws-cdk/aws-iam": "^1.130.0",
+    "@aws-cdk/core": "^1.130.0"
   },
   "bundledDependencies": [],
   "keywords": [

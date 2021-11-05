@@ -3040,10 +3040,10 @@ jsii-diff@^1.42.0:
     typescript "~3.9.10"
     yargs "^16.2.0"
 
-jsii-docgen@^3.8.19:
-  version "3.8.19"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.8.19.tgz#385669936852509663e6b688b674399186b8f31f"
-  integrity sha512-L7niCKK7jAMaaxca4jTOqLFtdRR6HRBBZuoFP2Gf+2Quco+PwzDAw4ZU4GCpxPe202BuzQh02cLttD1MjLOpXA==
+jsii-docgen@^3.8.20:
+  version "3.8.20"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-3.8.20.tgz#3aab33add2bcd3ddfe6728089bc8ee175392c2d7"
+  integrity sha512-RI9y8JLq3AHP6yxwe5PiGQSpuvcoXjRBw4ABIOFTOrNMeZJxkOzz6BzGrxA/ypwAKr9zoc1smKcM/wX3jqQMkw==
   dependencies:
     "@jsii/spec" "^1.42.0"
     case "^1.6.3"
@@ -3312,11 +3312,6 @@ locate-path@^6.0.0:
   integrity sha512-iPZK6eYjbxRu3uB4/WZ3EsEIMJFMqAoopl3R+zuq0UjcAm/MO6KCweDgPfP3elTztoKP3KtnVHxTn2NHBSDVUw==
   dependencies:
     p-locate "^5.0.0"
-
-lodash.clonedeep@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
-  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.ismatch@^4.4.0:
   version "4.4.0"
@@ -4058,10 +4053,10 @@ progress@^2.0.0, progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.32.6:
-  version "0.32.6"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.32.6.tgz#93662e9aa358abf0ecba79822925a8f471e41317"
-  integrity sha512-SwD30ix/5sl7jDtr/q15z6GImU8799SFiSI6ptQFDq2OLhSRqCAf5CXz+RIfdgyY3opC4hRlO1tddL1nFj9fEA==
+projen@^0.32.7:
+  version "0.32.7"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.32.7.tgz#9b0c5f121eaefd026d46072ea1ab004a758ea215"
+  integrity sha512-4Bw58yJtZL7muI/FciGY1tY+q9r25G+XBnhzlZYssMfB3emsO+kZO5GnlCE/s1IR8qx0nPqTqkChbIsy6rELPA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -4729,12 +4724,11 @@ supports-color@^7.1.0:
     has-flag "^4.0.0"
 
 table@^6.0.9, table@^6.7.2:
-  version "6.7.2"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.7.2.tgz#a8d39b9f5966693ca8b0feba270a78722cbaf3b0"
-  integrity sha512-UFZK67uvyNivLeQbVtkiUs8Uuuxv24aSL4/Vil2PJVtMgU8Lx0CYkP12uCGa3kjyQzOSgV1+z9Wkb82fCGsO0g==
+  version "6.7.3"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.7.3.tgz#255388439715a738391bd2ee4cbca89a4d05a9b7"
+  integrity sha512-5DkIxeA7XERBqMwJq0aHZOdMadBx4e6eDoFRuyT5VR82J0Ycg2DwM6GfA/EQAhJ+toRTaS1lIdSQCqgrmhPnlw==
   dependencies:
     ajv "^8.0.1"
-    lodash.clonedeep "^4.5.0"
     lodash.truncate "^4.4.2"
     slice-ansi "^4.0.0"
     string-width "^4.2.3"

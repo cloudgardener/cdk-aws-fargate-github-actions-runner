@@ -15,6 +15,8 @@
     "docgen": "npx projen docgen",
     "eslint": "npx projen eslint",
     "package": "npx projen package",
+    "post-compile": "npx projen post-compile",
+    "pre-compile": "npx projen pre-compile",
     "publish:github": "npx projen publish:github",
     "publish:npm": "npx projen publish:npm",
     "release": "npx projen release",
@@ -47,7 +49,7 @@
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.32.10",
+    "projen": "^0.33.1",
     "standard-version": "^9",
     "typescript": "^4.4.4"
   },
@@ -55,10 +57,10 @@
     "constructs": "^3.2.27"
   },
   "dependencies": {
-    "@aws-cdk/aws-ec2": "^1.130.0",
-    "@aws-cdk/aws-ecs": "^1.130.0",
-    "@aws-cdk/aws-iam": "^1.130.0",
-    "@aws-cdk/core": "^1.130.0"
+    "@aws-cdk/aws-ec2": "^1.131.0",
+    "@aws-cdk/aws-ecs": "^1.131.0",
+    "@aws-cdk/aws-iam": "^1.131.0",
+    "@aws-cdk/core": "^1.131.0"
   },
   "bundledDependencies": [],
   "keywords": [

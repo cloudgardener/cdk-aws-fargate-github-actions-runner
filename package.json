@@ -46,10 +46,10 @@
     "jsii-diff": "^1.43.0",
     "jsii-docgen": "^3.8.24",
     "jsii-pacmak": "^1.43.0",
-    "json-schema": "^0.3.0",
+    "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.33.2",
+    "projen": "^0.33.3",
     "standard-version": "^9",
     "typescript": "^4.4.4"
   },
@@ -57,10 +57,10 @@
     "constructs": "^3.2.27"
   },
   "dependencies": {
-    "@aws-cdk/aws-ec2": "^1.131.0",
-    "@aws-cdk/aws-ecs": "^1.131.0",
-    "@aws-cdk/aws-iam": "^1.131.0",
-    "@aws-cdk/core": "^1.131.0"
+    "@aws-cdk/aws-ec2": "^1.132.0",
+    "@aws-cdk/aws-ecs": "^1.132.0",
+    "@aws-cdk/aws-iam": "^1.132.0",
+    "@aws-cdk/core": "^1.132.0"
   },
   "bundledDependencies": [],
   "keywords": [

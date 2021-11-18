@@ -49,9 +49,9 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.4.1",
-    "projen": "^0.34.3",
+    "projen": "^0.34.4",
     "standard-version": "^9",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.2"
   },
   "peerDependencies": {
     "constructs": "^3.2.27"

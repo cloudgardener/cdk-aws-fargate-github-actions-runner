@@ -49,7 +49,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^11",
     "prettier": "^2.5.0",
-    "projen": "^0.34.23",
+    "projen": "^0.34.24",
     "standard-version": "^9",
     "typescript": "^4.5.2"
   },

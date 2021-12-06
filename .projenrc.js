@@ -1,5 +1,5 @@
-const { AwsCdkConstructLibrary } = require("projen");
-const project = new AwsCdkConstructLibrary({
+const { awscdk } = require("projen");
+const project = new awscdk.AwsCdkConstructLibrary({
   name: "@cloudgardener/cdk-aws-fargate-github-actions-runner",
   description:
     "CDK construct library to deploy GitHub Actions self-hosted runner to AWS Fargate.",

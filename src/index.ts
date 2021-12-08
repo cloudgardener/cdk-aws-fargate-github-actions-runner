@@ -85,7 +85,7 @@ export class GithubActionsRunner extends Construct implements ec2.IConnectable {
     );
 
     taskDefinition.addContainer("Container", {
-      image: ecs.ContainerImage.fromAsset(path.resolve(__dirname, "./image")),
+      image: ecs.ContainerImage.fromAsset(path.resolve(__dirname, "../image")),
       logging: ecs.LogDrivers.awsLogs({
         streamPrefix: "GitHubActionsRunner",
         logRetention: logRetentionDays,

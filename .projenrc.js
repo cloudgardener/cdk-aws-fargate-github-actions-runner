@@ -45,4 +45,5 @@ const project = new awscdk.AwsCdkConstructLibrary({
   deps: ["constructs@^10"],
   workflowContainerImage: "jsii/superchain:node14",
 });
+project.addPackageIgnore("!/src/image/");
 project.synth();

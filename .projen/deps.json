@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.125.0",
+      "version": "^2.0.0",
       "type": "build"
     },
     {
@@ -88,24 +88,23 @@
       "type": "build"
     },
     {
-      "name": "constructs",
-      "version": "^3.2.27",
+      "name": "aws-cdk-lib",
+      "version": "^2.0.0",
       "type": "peer"
     },
     {
-      "name": "@aws-cdk/aws-ec2",
+      "name": "constructs",
+      "version": "^10.0.5",
+      "type": "peer"
+    },
+    {
+      "name": "aws-cdk-lib",
+      "version": "^2.0.0",
       "type": "runtime"
     },
     {
-      "name": "@aws-cdk/aws-ecs",
-      "type": "runtime"
-    },
-    {
-      "name": "@aws-cdk/aws-iam",
-      "type": "runtime"
-    },
-    {
-      "name": "@aws-cdk/core",
+      "name": "constructs",
+      "version": "^10",
       "type": "runtime"
     }
   ],

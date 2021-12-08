@@ -4,7 +4,7 @@
 
 ### GithubActionsRunner <a name="@cloudgardener/cdk-aws-fargate-github-actions-runner.GithubActionsRunner"></a>
 
-- *Implements:* [`@aws-cdk/aws-ec2.IConnectable`](#@aws-cdk/aws-ec2.IConnectable)
+- *Implements:* [`aws-cdk-lib.aws_ec2.IConnectable`](#aws-cdk-lib.aws_ec2.IConnectable)
 
 #### Initializers <a name="@cloudgardener/cdk-aws-fargate-github-actions-runner.GithubActionsRunner.Initializer"></a>
 
@@ -16,7 +16,7 @@ new GithubActionsRunner(scope: Construct, id: string, props: GithubActionsRunner
 
 ##### `scope`<sup>Required</sup> <a name="@cloudgardener/cdk-aws-fargate-github-actions-runner.GithubActionsRunner.parameter.scope"></a>
 
-- *Type:* [`@aws-cdk/core.Construct`](#@aws-cdk/core.Construct)
+- *Type:* [`constructs.Construct`](#constructs.Construct)
 
 ---
 
@@ -42,7 +42,7 @@ new GithubActionsRunner(scope: Construct, id: string, props: GithubActionsRunner
 public readonly connections: Connections;
 ```
 
-- *Type:* [`@aws-cdk/aws-ec2.Connections`](#@aws-cdk/aws-ec2.Connections)
+- *Type:* [`aws-cdk-lib.aws_ec2.Connections`](#aws-cdk-lib.aws_ec2.Connections)
 
 Makes runner "connectable".
 
@@ -54,7 +54,7 @@ Makes runner "connectable".
 public readonly role: IRole;
 ```
 
-- *Type:* [`@aws-cdk/aws-iam.IRole`](#@aws-cdk/aws-iam.IRole)
+- *Type:* [`aws-cdk-lib.aws_iam.IRole`](#aws-cdk-lib.aws_iam.IRole)
 
 The IAM role associated with this runner.
 
@@ -81,7 +81,7 @@ const githubActionsRunnerProps: GithubActionsRunnerProps = { ... }
 public readonly githubToken: Secret;
 ```
 
-- *Type:* [`@aws-cdk/aws-ecs.Secret`](#@aws-cdk/aws-ecs.Secret)
+- *Type:* [`aws-cdk-lib.aws_ecs.Secret`](#aws-cdk-lib.aws_ecs.Secret)
 
 Secret containing a GitHub Personal Access Token to be used for the runner authentication.
 
@@ -105,7 +105,7 @@ The GitHub repository to use for the runner.
 public readonly cluster: ICluster;
 ```
 
-- *Type:* [`@aws-cdk/aws-ecs.ICluster`](#@aws-cdk/aws-ecs.ICluster)
+- *Type:* [`aws-cdk-lib.aws_ecs.ICluster`](#aws-cdk-lib.aws_ecs.ICluster)
 - *Default:* a new cluster is created
 
 The ECS cluster to run the task in.
@@ -144,7 +144,7 @@ Use Fargate SPOT capacity.
 public readonly vpc: IVpc;
 ```
 
-- *Type:* [`@aws-cdk/aws-ec2.IVpc`](#@aws-cdk/aws-ec2.IVpc)
+- *Type:* [`aws-cdk-lib.aws_ec2.IVpc`](#aws-cdk-lib.aws_ec2.IVpc)
 - *Default:* a new VPC is created
 
 The VPC to run the cluster in.

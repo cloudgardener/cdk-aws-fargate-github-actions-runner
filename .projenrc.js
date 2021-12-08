@@ -6,9 +6,10 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl:
     "https://github.com/cloudgardener/cdk-aws-fargate-github-actions-runner.git",
   license: "MIT",
+  majorVersion: "1",
   authorName: "Niko Virtala",
   authorAddress: "niko@cloudgardener.dev",
-  cdkVersion: "1.125.0",
+  cdkVersion: "2.0.0",
   defaultReleaseBranch: "main",
   depsUpgradeOptions: {
     ignoreProjen: false,
@@ -40,11 +41,8 @@ const project = new awscdk.AwsCdkConstructLibrary({
     prettier: true,
   },
   jest: false,
-  deps: [
-    "@aws-cdk/aws-ec2",
-    "@aws-cdk/aws-ecs",
-    "@aws-cdk/core",
-    "@aws-cdk/aws-iam",
-  ],
+  cdkDependencies: ["aws-cdk-lib"],
+  deps: ["constructs@^10"],
+  workflowContainerImage: "jsii/superchain:node14",
 });
 project.synth();

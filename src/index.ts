@@ -1,8 +1,6 @@
 import * as path from "path";
-import * as ec2 from "@aws-cdk/aws-ec2";
-import * as ecs from "@aws-cdk/aws-ecs";
-import * as iam from "@aws-cdk/aws-iam";
-import { Construct } from "@aws-cdk/core";
+import { aws_ec2 as ec2, aws_ecs as ecs, aws_iam as iam } from "aws-cdk-lib";
+import { Construct } from "constructs";
 
 /**
  * Properties of the GithubActionsRunner

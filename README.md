@@ -7,16 +7,16 @@ This is continuation to [`cdk-github-actions-runner`](https://github.com/nikovir
 ## Example
 
 ```ts
-import { App, Stack } from "@aws-cdk/core";
+import { App, Stack, aws_ecs as ecs, aws_ssm as ssm } from "aws-cdk-lib";
 import { GithubActionsRunner } from "@cloudgardener/cdk-aws-fargate-github-actions-runner";
 
 const app = new App();
 const stack = new Stack(app, "stack");
 
 // Get GitHub token e.g. from SSM Parameter Store
-const token = Secret.fromSsmParameter(
-  StringParameter.fromSecureStringParameterAttributes(
-    this,
+const token = ecs.Secret.fromSsmParameter(
+  ssm.StringParameter.fromSecureStringParameterAttributes(
+    stack,
     "GitHubAccessToken",
     {
       parameterName: "GITHUB_ACCESS_TOKEN",

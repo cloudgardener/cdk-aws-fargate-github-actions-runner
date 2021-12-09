@@ -9,7 +9,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   majorVersion: "1",
   authorName: "Niko Virtala",
   authorAddress: "niko@cloudgardener.dev",
-  cdkVersion: "2.0.0",
+  cdkVersion: "2.1.0",
   defaultReleaseBranch: "main",
   depsUpgradeOptions: {
     ignoreProjen: false,
@@ -41,8 +41,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
     prettier: true,
   },
   jest: false,
-  cdkDependencies: ["aws-cdk-lib"],
-  deps: ["constructs@^10"],
   workflowContainerImage: "jsii/superchain:node14",
 });
 project.synth();

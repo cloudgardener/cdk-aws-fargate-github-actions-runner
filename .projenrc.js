@@ -9,7 +9,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   majorVersion: "1",
   authorName: "Niko Virtala",
   authorAddress: "niko@cloudgardener.dev",
-  cdkVersion: "2.1.0",
+  cdkVersion: "2.3.0",
   defaultReleaseBranch: "main",
   depsUpgradeOptions: {
     ignoreProjen: false,

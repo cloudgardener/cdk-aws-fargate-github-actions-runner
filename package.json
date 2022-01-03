@@ -41,7 +41,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
     "jsii": "^1.50.0",
     "jsii-diff": "^1.50.0",
@@ -49,7 +49,7 @@
     "json-schema": "^0.4.0",
     "npm-check-updates": "^12",
     "prettier": "^2.5.1",
-    "projen": "^0.47.8",
+    "projen": "^0.50.2",
     "standard-version": "^9",
     "typescript": "^4.5.4"
   },
@@ -57,7 +57,6 @@
     "aws-cdk-lib": "^2.3.0",
     "constructs": "^10.0.5"
   },
-  "bundledDependencies": [],
   "keywords": [
     "aws",
     "aws-cdk",

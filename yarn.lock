@@ -3201,10 +3201,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.52.13:
-  version "0.52.13"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.13.tgz#cefca4fd85deed85850e86e62da0540bcd10db77"
-  integrity sha512-UxElFu08tLrypvSrkYOKeR5yRNwgw9fSs9VXHZ5Pk2xAo0KEZtxppwZdbp/LHTVvCv8aITD/7uIlaS7In+vMaQ==
+projen@^0.52.15:
+  version "0.52.15"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.15.tgz#b5c33d1e9a0f650315885c47e2a020546844f78e"
+  integrity sha512-EdUUAltxKDQjsxBuyFqAwo1wGsCY84gN6DaVgIRPglidUVnE21YFIMRaAoNDL16D0Q6YwtlBIXKEvC3SOU1GtA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -3563,9 +3563,9 @@ side-channel@^1.0.3, side-channel@^1.0.4:
     object-inspect "^1.9.0"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.6.tgz#24e630c4b0f03fea446a2bd299e62b4a6ca8d0af"
-  integrity sha512-sDl4qMFpijcGw22U5w63KmD3cZJfBuFlVNbVMKje2keoKML7X2UzWbc4XrmEbDwg0NXJc3yv4/ox7b+JWb57kQ==
+  version "3.0.7"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
+  integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
 sisteransi@^1.0.5:
   version "1.0.5"

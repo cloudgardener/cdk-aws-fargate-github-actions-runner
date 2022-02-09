@@ -2819,9 +2819,9 @@ npm-bundled@^1.1.1:
     npm-normalize-package-bin "^1.0.1"
 
 npm-check-updates@^12:
-  version "12.2.1"
-  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.2.1.tgz#1f25fec9863c149e4bae84833599050701dcd530"
-  integrity sha512-fqfH2USwTLgho8HaC79i5Bl+RH3zV15AbdtJQTCaOAp9L3D2W8k+jsfuwee2vSTUrt6IUTXPbzwUIYo4/TQdYA==
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/npm-check-updates/-/npm-check-updates-12.3.0.tgz#d06faf0b07da72112d57828a6c2beff5970fa706"
+  integrity sha512-NcVpbVYZymmr7lVCwqz1wpkAgWNQ/XyyPy/yyR2IjCHU4Dr1lpIJgIgtC0PCDobcYuYXpYSIgIWZA7RFvq8+Rw==
   dependencies:
     chalk "^4.1.2"
     cint "^8.2.1"
@@ -2851,6 +2851,7 @@ npm-check-updates@^12:
     source-map-support "^0.5.21"
     spawn-please "^1.0.0"
     update-notifier "^5.1.0"
+    yaml "^1.10.2"
 
 npm-install-checks@^4.0.0:
   version "4.0.0"
@@ -3201,10 +3202,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.52.20:
-  version "0.52.20"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.20.tgz#609c6391a0b8aec7b689b0343a49a9dbd8da8a4a"
-  integrity sha512-SZTDYE+LYdrkAddzoPOiYkRfCFSnYc6xyh1Gu+fe+3HL9VaG53bHOEZ19jFNEZ7qUIGhRL/uyP/3ajisDiMHcQ==
+projen@^0.52.22:
+  version "0.52.22"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.52.22.tgz#04f0a0d4923c6057095edb3a13a92a116cd98eeb"
+  integrity sha512-xz5Yyjy5y9XpasRMIX9lpoLFwweWJhAaLRz4UXkz+CJ7uA9o1OymyXak0zP/67K/G51Z7evS3DTjV6T+TFSCow==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -4164,7 +4165,7 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@1.10.2:
+yaml@1.10.2, yaml@^1.10.2:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==

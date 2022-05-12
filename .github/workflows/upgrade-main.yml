@@ -34,7 +34,7 @@ jobs:
           name: .repo.patch
           path: .repo.patch
     container:
-      image: jsii/superchain:node14
+      image: jsii/superchain:1-buster-slim-node14
   pr:
     name: Create Pull Request
     needs: upgrade
@@ -64,7 +64,7 @@ jobs:
         id: create-pr
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.AUTOMATION_TOKEN }}
+          token: ${{ secrets.PROJEN_GITHUB_TOKEN }}
           commit-message: |-
             chore(deps): upgrade dependencies
 

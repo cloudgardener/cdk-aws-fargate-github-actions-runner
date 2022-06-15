@@ -265,9 +265,9 @@
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
 "@types/node@*":
-  version "17.0.42"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.42.tgz#d7e8f22700efc94d125103075c074396b5f41f9b"
-  integrity sha512-Q5BPGyGKcvQgAMbsr7qEGN/kIPN6zZecYYABeTDBizOsau+2NMdSVTar9UQw21A2+JyA2KRNDYaYrPB0Rpk2oQ==
+  version "17.0.43"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.43.tgz#7f16898cdd791c9d64069000ad448b47b3ca8353"
+  integrity sha512-jnUpgw8fL9kP2iszfIDyBQtw5Mf4/XSqy0Loc1J9pI14ejL83XcCEvSf50Gs/4ET0I9VCCDoOfufQysj0S66xA==
 
 "@types/node@^14":
   version "14.18.21"
@@ -3355,10 +3355,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.6.2:
-  version "2.6.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
-  integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
+prettier@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.0.tgz#a4fdae07e5596c51c9857ea676cd41a0163879d6"
+  integrity sha512-nwoX4GMFgxoPC6diHvSwmK/4yU8FFH3V8XWtLQrbj4IBsK2pkYhG4kf/ljF/haaZ/aii+wNJqISrCDPgxGWDVQ==
 
 proc-log@^2.0.0:
   version "2.0.1"
@@ -3375,10 +3375,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.58.12:
-  version "0.58.12"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.58.12.tgz#7f32601ca72220d7ba5a05976be9ec8ffaeb145e"
-  integrity sha512-YONZnguoYsKubJaQKtjQlsSh2UEUU3aBbmIzETHhdilVLPRMWajrSDneas++/bftj3dWN/71I4899w0K79KhJQ==
+projen@^0.58.13:
+  version "0.58.13"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.58.13.tgz#b7d257ea3667943b260fff43fac2aa687588be0f"
+  integrity sha512-gTbSBZqjGInytQ4n0B6ZNrRwmVXkIfdtackjS62jcV/591HIflmxIerY+m2gKiHedOoMbCmMO20kZEc6F6sUFA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"

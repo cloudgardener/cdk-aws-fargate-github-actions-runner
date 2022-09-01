@@ -287,9 +287,9 @@
     "@types/node" "*"
 
 "@types/minimatch@*":
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-5.1.1.tgz#b1429c0c016cd50e105f3166bf179f6918b7365f"
-  integrity sha512-v55NF6Dz0wrj14Rn8iEABTWrhYRmgkJYuokduunSiq++t3hZ9VZ6dvcDt+850Pm5sGJZk8RaHzkFCXPxVINZ+g==
+  version "5.1.2"
+  resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-5.1.2.tgz#07508b45797cb81ec3f273011b054cd0755eddca"
+  integrity sha512-K0VQKziLUWkVKiRVrx4a40iPaxTUefQmjtkQofBkYRcoaaL/8rhwDWww9qWbrgicNOgnpIsMxyNIUM4+n6dUIA==
 
 "@types/minimist@^1.2.0":
   version "1.2.2"
@@ -3327,10 +3327,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.61.36:
-  version "0.61.36"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.61.36.tgz#848ce3bca5c22b23f4625901a0d203b507e6b00d"
-  integrity sha512-3wXguJThHD3LHFDwUYj3sgv3c2I2zdixQCDcpGvuS5bHJ+fnlTxoGPMfusL4ONKRILywcAXPYgNdmee16rV9uQ==
+projen@^0.61.38:
+  version "0.61.38"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.61.38.tgz#df79c7cc66bbce3ea29d87bd5d1cecacb8d91703"
+  integrity sha512-9qL/b5p032Pr6O0M6uX8RccbznL0RzxdFaq7X8zegJJf2eMWQBBgU2UgFoRIqgSqvbefHyNq+uhwq/Vw902F9w==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"

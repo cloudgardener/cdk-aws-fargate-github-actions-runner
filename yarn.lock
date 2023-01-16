@@ -1515,9 +1515,9 @@ eslint-visitor-keys@^3.3.0:
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
 eslint@^8:
-  version "8.31.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.31.0.tgz#75028e77cbcff102a9feae1d718135931532d524"
-  integrity sha512-0tQQEVdmPZ1UtUKXjX7EMm9BlgJ08G90IhWh0PKDCb3ZLsgAOHI8fYSIzYVZej92zsgq+ft0FGsxhJ3xo2tbuA==
+  version "8.32.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.32.0.tgz#d9690056bb6f1a302bd991e7090f5b68fbaea861"
+  integrity sha512-nETVXpnthqKPFyuY2FNjz/bEd6nbosRgKbkgS/y1C7LJop96gYHWpiguLecMHQ2XCPxn77DS0P+68WzG6vkZSQ==
   dependencies:
     "@eslint/eslintrc" "^1.4.1"
     "@humanwhocodes/config-array" "^0.11.8"
@@ -3454,10 +3454,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.66.15:
-  version "0.66.15"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.66.15.tgz#5db866e071d4c82810a26aa36fc3ab76df20fecb"
-  integrity sha512-gVnZz1vMVjeHGg/asxCcPCbB8tCUfyFqRYekdysAIpqNDWLwCSQUhCSRBcDVEr+IpNrHTMaRoUEzuHPxazU/+A==
+projen@^0.66.16:
+  version "0.66.16"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.66.16.tgz#0744426e533f3b5badf47e1cd3261d8952350b0a"
+  integrity sha512-S9rSKZTJIfwY+QEWznrDG1Tc14fZo8PjqoHqEsBJBgqL3VgjllG7g/F6bSSH0dgJt107wnjZjHj3lcGLZst3OQ==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"

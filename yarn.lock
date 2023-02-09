@@ -3434,10 +3434,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.8.3:
-  version "2.8.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.3.tgz#ab697b1d3dd46fb4626fbe2f543afe0cc98d8632"
-  integrity sha512-tJ/oJ4amDihPoufT5sM0Z1SKEuKay8LfVAMlbbhnnkvt6BUserZylqo2PN+p9KeljLr0OHa2rXHU1T8reeoTrw==
+prettier@^2.8.4:
+  version "2.8.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.8.4.tgz#34dd2595629bfbb79d344ac4a91ff948694463c3"
+  integrity sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==
 
 proc-log@^3.0.0:
   version "3.0.0"
@@ -3454,10 +3454,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.67.41:
-  version "0.67.41"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.41.tgz#105522093d509c57e61c1cd90381bcdee8ebe864"
-  integrity sha512-QpaDV8WeAm2EoIqn82aL0rPP77E/7SciI4BprkoIFMAqQGkr+aSeCW2eEbZqjVOVLcH4AqSYEcLSMI+aRUqe/Q==
+projen@^0.67.43:
+  version "0.67.43"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.43.tgz#b03bbbe18808be74d34a1f90bb8c52f94208ac10"
+  integrity sha512-Hu8guTQ9gQnTy4mHCRidhD9kySRXOwxcOU0viU0B2g0MmQCrbqSrqhXfGvsDZl3sPkvxGvw2pC4D6bKh5chpYA==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"

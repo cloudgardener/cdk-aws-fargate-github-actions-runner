@@ -2761,9 +2761,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.4.4, lru-cache@^7.5.1, lru-cache@^7.7.1:
-  version "7.14.1"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.14.1.tgz#8da8d2f5f59827edb388e63e459ac23d6d408fea"
-  integrity sha512-ysxwsnTKdAx96aTRdhDOCQfDgbHnt8SK0KY8SEjO0wHinhWOFTESbjVCMPbU1uGXg/ch4lifqx0wfjOawU2+WA==
+  version "7.15.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.15.0.tgz#4437550407da5ec8c4fe0946a137fe2f7f07a171"
+  integrity sha512-LKpNuyKR1lRsqN5DatvMOkW2nmUAwI22HoQK604nhs+WiRWSIC0MFUKq2XYUKv1fCVPK9Cro4d4Il3DxM80/fQ==
 
 make-fetch-happen@^10.0.3:
   version "10.2.1"
@@ -3455,10 +3455,10 @@ progress@^2.0.3:
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.3.tgz#7e8cf8d8f5b8f239c1bc68beb4eb78567d572ef8"
   integrity sha512-7PiHtLll5LdnKIMw100I+8xJXR5gW2QwWYkT6iJva0bXitZKa/XMrSbdmg3r2Xnaidz9Qumd0VPaMrZlF9V9sA==
 
-projen@^0.67.54:
-  version "0.67.54"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.54.tgz#d2f13d880017b312a459b71a05f012d81a3f868c"
-  integrity sha512-F4iTzjE3gE50gAyvZZmmdweYtTUtv5PMKajaLOt2UKull9GlaJKvd6UjRqER8Wh2Uyu11TDWooUMKkDmK1lg6g==
+projen@^0.67.57:
+  version "0.67.57"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.67.57.tgz#9c5c546d18c961339fb00a49a556b22822686e39"
+  integrity sha512-0FGTllWD6tf9ZDgcjBnnbBJmUjtwMOOiZAu6oI4GwIqoySt7uyCTv6uG71OjyQPhsM6iXiLeBJVz57PSJu4g/g==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -4007,9 +4007,9 @@ standard-version@^9:
     yargs "^16.0.0"
 
 streamroller@^3.1.3:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/streamroller/-/streamroller-3.1.4.tgz#844a18e795d39c1089a8216e66a1cf1151271df0"
-  integrity sha512-Ha1Ccw2/N5C/IF8Do6zgNe8F3jQo8MPBnMBGvX0QjNv/I97BcNRzK6/mzOpZHHK7DjMLTI3c7Xw7Y1KvdChkvw==
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/streamroller/-/streamroller-3.1.5.tgz#1263182329a45def1ffaef58d31b15d13d2ee7ff"
+  integrity sha512-KFxaM7XT+irxvdqSP1LGLgNWbYN7ay5owZ3r/8t77p+EtSUAfUgtl7be3xtqtOmGUl9K9YPO2ca8133RlTjvKw==
   dependencies:
     date-format "^4.0.14"
     debug "^4.3.4"

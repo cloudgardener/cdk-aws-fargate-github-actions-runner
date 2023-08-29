@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "@types/node",
-      "version": "^14",
+      "version": "^16",
       "type": "build"
     },
     {
@@ -51,10 +51,6 @@
       "type": "build"
     },
     {
-      "name": "jsii",
-      "type": "build"
-    },
-    {
       "name": "jsii-diff",
       "type": "build"
     },
@@ -64,6 +60,16 @@
     },
     {
       "name": "jsii-pacmak",
+      "type": "build"
+    },
+    {
+      "name": "jsii-rosetta",
+      "version": "1.x",
+      "type": "build"
+    },
+    {
+      "name": "jsii",
+      "version": "1.x",
       "type": "build"
     },
     {

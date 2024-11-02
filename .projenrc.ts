@@ -1,4 +1,6 @@
-const { awscdk } = require("projen");
+import { awscdk } from "projen";
+import { NpmAccess } from "projen/lib/javascript";
+
 const project = new awscdk.AwsCdkConstructLibrary({
   name: "@cloudgardener/cdk-aws-fargate-github-actions-runner",
   description:
@@ -6,23 +8,26 @@ const project = new awscdk.AwsCdkConstructLibrary({
   repositoryUrl:
     "https://github.com/cloudgardener/cdk-aws-fargate-github-actions-runner.git",
   license: "MIT",
-  majorVersion: "1",
-  authorName: "Niko Virtala",
+  majorVersion: 1,
+  author: "Niko Virtala",
   authorAddress: "niko@cloudgardener.dev",
   cdkVersion: "2.12.0",
+  dependabot: false,
   defaultReleaseBranch: "main",
+  jsiiVersion: "~5.5.0",
   depsUpgradeOptions: {
-    ignoreProjen: false,
     workflowOptions: {
       labels: ["auto-approve", "auto-merge"],
-      secret: "AUTOMATION_TOKEN",
     },
   },
   autoApproveOptions: {
     secret: "GITHUB_TOKEN",
     allowedUsernames: ["nikovirtala"],
   },
-  npmAccess: "public",
+  githubOptions: {
+    mergify: true,
+  },
+  npmAccess: NpmAccess.PUBLIC,
   catalog: {
     announce: true,
     twitter: "nikovirtala",
@@ -36,11 +41,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
     "github-actions",
     "runner",
   ],
-  eslint: true,
-  eslintOptions: {
-    prettier: true,
-  },
+  prettier: true,
   jest: false,
   workflowContainerImage: "jsii/superchain:1-buster-slim-node14",
+  projenrcTs: true,
 });
 project.synth();

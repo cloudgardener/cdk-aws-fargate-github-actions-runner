@@ -55,8 +55,6 @@ jobs:
           name: build-artifact
           path: dist
           overwrite: true
-    container:
-      image: jsii/superchain:1-buster-slim-node14
   self-mutation:
     needs: build
     runs-on: ubuntu-latest
@@ -122,5 +120,3 @@ jobs:
         run: cd .repo && npx projen package:js
       - name: Collect js artifact
         run: mv .repo/dist dist
-    container:
-      image: jsii/superchain:1-buster-slim-node14

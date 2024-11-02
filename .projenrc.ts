@@ -43,7 +43,6 @@ const project = new awscdk.AwsCdkConstructLibrary({
   ],
   prettier: true,
   jest: false,
-  workflowContainerImage: "jsii/superchain:1-buster-slim-node14",
   projenrcTs: true,
 });
 project.synth();

@@ -11,7 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   majorVersion: 1,
   author: "Niko Virtala",
   authorAddress: "niko@cloudgardener.dev",
-  cdkVersion: "2.12.0",
+  cdkVersion: "2.80.0",
   dependabot: false,
   defaultReleaseBranch: "main",
   jsiiVersion: "~5.5.0",
@@ -45,4 +45,5 @@ const project = new awscdk.AwsCdkConstructLibrary({
   jest: false,
   projenrcTs: true,
 });
+
 project.synth();

@@ -1552,9 +1552,9 @@ fast-uri@^3.0.1:
   integrity sha512-Atfo14OibSv5wAp4VWNsFYE1AchQRTv9cBGWET4pZWHzYshFSS9NQI6I57rdKn9croWVMbYFbLhJ+yJvmZIIHw==
 
 fastq@^1.6.0:
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.19.0.tgz#a82c6b7c2bb4e44766d865f07997785fecfdcb89"
-  integrity sha512-7SFSRCNjBQIZH/xZR3iy5iQYR8aGBE0h3VG6/cwlbrpdciNYBMotQav8c1XI3HjHH+NikUpP53nPdlZSdWmFzA==
+  version "1.19.1"
+  resolved "https://registry.yarnpkg.com/fastq/-/fastq-1.19.1.tgz#d50eaba803c8846a883c16492821ebcd2cda55f5"
+  integrity sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==
   dependencies:
     reusify "^1.0.4"
 
@@ -3695,9 +3695,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "5.9.0-dev.20250225"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.0-dev.20250225.tgz#36b7e9c80d8f07da33bae83794cb12e8a3b12573"
-  integrity sha512-rOzayxhA6eEpXSqW3kiHMgNC7G3a/bqw2k6ls23L4abPMqrUlGiRB3q0haKfI1Le+8eXjzhP3GwsZCMpEKDDLw==
+  version "5.9.0-dev.20250226"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.0-dev.20250226.tgz#e7515a1ece8f113f7112f425f2148d9bd4296e8d"
+  integrity sha512-5mIqZ5ilcOYPZ+EXcOo5hpXJt51N7fPlkjxX5e9hbM+Ao7gd+t+XN5trQk3iWyvBNEPMn7950rAE0Kxl4thnCA==
 
 typescript@~5.5:
   version "5.5.4"

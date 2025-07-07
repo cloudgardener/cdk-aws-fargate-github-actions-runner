@@ -1150,9 +1150,9 @@ decamelize@^5.0.1:
   integrity sha512-VfxadyCECXgQlkoEAjeghAr5gY3Hf+IKjKb+X8tGVDtveCjN+USwprd2q3QXBR9T1+x2DG0XZF5/w+7HAtSaXA==
 
 decimal.js@^10.4.3:
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-10.5.0.tgz#0f371c7cf6c4898ce0afb09836db73cd82010f22"
-  integrity sha512-8vDa8Qxvr/+d94hSh5P3IJwI5t8/c0KsMp+g8bNw9cY2icONa5aPfvKeieW1WlG0WQYwwhJ7mjui2xtiePQSXw==
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/decimal.js/-/decimal.js-10.6.0.tgz#e649a43e3ab953a72192ff5983865e509f37ed9a"
+  integrity sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==
 
 deep-is@^0.1.3:
   version "0.1.4"
@@ -3871,9 +3871,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "5.9.0-dev.20250705"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.0-dev.20250705.tgz#8ced48d10437d33592c45a77655948bb65d9ea57"
-  integrity sha512-oHbf7J1l+BdBh8Ou1Wpam8BcXHPp6OmXLCHF8/OONtQ+kgLYni0+JdakM2tI9SMu2s4UkaOLODCnFM1BrsXkyw==
+  version "5.9.0-dev.20250706"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.9.0-dev.20250706.tgz#5da48f74f2e1eb57297e82159a67db25d1eccda7"
+  integrity sha512-fXoCkcE9kL5LVu74dK+AbnT8uzSt5dh29VvLd8c4/8zz/grdKunB9dcxRSU9Eongwt3N89hTRuPN74CQFF5VHg==
 
 typescript@~5.5:
   version "5.5.4"

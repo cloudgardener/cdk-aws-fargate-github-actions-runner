@@ -2377,9 +2377,9 @@ jsii-diff@^1.114.1:
     yargs "^17.7.2"
 
 jsii-docgen@^10.5.0:
-  version "10.8.3"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.8.3.tgz#c78f9c067bbd3a88371ce731807ea36cf0f136f1"
-  integrity sha512-ktyhpNNQvoBEm3246+YxJTQ2HPx2k/NQcFqHn906xXiUvKssx+obnUFpJzN9Da8nPqhgYswl6qSryWnDiSFs4Q==
+  version "10.9.0"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.9.0.tgz#5f1c6ed4e92c8bc169cdf28e7ef13d5a5da45f88"
+  integrity sha512-ULpavB0/0pZJC5sflF2aMC1BrsWcYaOFLR6lOELI+vTuV1hiZIhyg9RtQMSpHAewPb2qfevj0Es12wipwWmBBg==
   dependencies:
     "@jsii/spec" "^1.114.1"
     case "^1.6.3"
@@ -2387,6 +2387,7 @@ jsii-docgen@^10.5.0:
     glob "^8.1.0"
     glob-promise "^6.0.7"
     jsii-reflect "^1.114.1"
+    json-stream-stringify "^3.1.6"
     semver "^7.7.2"
     yargs "^16.2.0"
 
@@ -2492,6 +2493,11 @@ json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
   integrity sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
+
+json-stream-stringify@^3.1.6:
+  version "3.1.6"
+  resolved "https://registry.yarnpkg.com/json-stream-stringify/-/json-stream-stringify-3.1.6.tgz#ebe32193876fb99d4ec9f612389a8d8e2b5d54d4"
+  integrity sha512-x7fpwxOkbhFCaJDJ8vb1fBY3DdSa4AlITaz+HHILQJzdPMnHEFjxPwVUi1ALIbcIxDE0PNe/0i7frnY8QnBQog==
 
 json-stringify-safe@^5.0.1:
   version "5.0.1"
@@ -3868,9 +3874,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "6.0.0-dev.20250922"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20250922.tgz#22283a7dcefd20a7484fd104c5fe1e063886967e"
-  integrity sha512-4jTznRR2W8ak4kgHlxhNEauwCS/O2O2AfS3yC+Y4VxkRDFIruwdcW4+UQflBJrLCFa42lhdAAMGl1td/99KTKg==
+  version "6.0.0-dev.20250923"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20250923.tgz#e7ec8a4f9078256f83553f7ba115efa4ac2b5d4b"
+  integrity sha512-Aiy0yklpKnRJkElhXO/bB2DhosYfL+j4RiUinq6C58ncyDOjuKn5wk6O5rds4n4AOobAqMjLU55H5q7bEyDcMQ==
 
 typescript@~5.5:
   version "5.5.4"

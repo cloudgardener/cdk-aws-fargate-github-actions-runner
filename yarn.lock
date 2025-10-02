@@ -2383,9 +2383,9 @@ jsii-diff@^1.115.0:
     yargs "^17.7.2"
 
 jsii-docgen@^10.5.0:
-  version "10.9.1"
-  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.9.1.tgz#caa5aa0566972f86547edc1228bc40831e16704e"
-  integrity sha512-pZZdUpc6uxGHFO6y23115Ax6PdgCVXDbKin+GI37zM4es99igZHN2Q3cL/PSYiT+tzk4qgHO4MT2U9RRg5ll3A==
+  version "10.10.0"
+  resolved "https://registry.yarnpkg.com/jsii-docgen/-/jsii-docgen-10.10.0.tgz#e24070ecc319b2c9bfd6b6ca3dd9d3c228503d7a"
+  integrity sha512-tOF9Jeqz2pow71BlnzhWdqjnw4m0qOWleTs7yj4tROrLJHjWePcAzkVB0PLsjdkRWlbs1oefRwsw5Z30qgpsQw==
   dependencies:
     "@jsii/spec" "^1.115.0"
     case "^1.6.3"
@@ -3880,9 +3880,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "6.0.0-dev.20250930"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20250930.tgz#5ae70f14f756735c3c3ae63d5350acfb800beee6"
-  integrity sha512-D6DGscM72+75P5w9jKtkzHnbt7sjHIYHLokcjgEKAUd1YN+dBwKYyIlzn3jQ7xCXU9YJEsKZr/+rXaLzySqbKA==
+  version "6.0.0-dev.20251001"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20251001.tgz#df84422a8b2cb4504cc68975881584983de1ec2e"
+  integrity sha512-FwticMnSAyRGVO2htUy3PKk7Q80NwX+bdysyyxzbx9Bs90efZ/UrXSJp+jdQqzFcrx/0Pf3lQV3IGz+Aoz1xMw==
 
 typescript@~5.5:
   version "5.5.4"

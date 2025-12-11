@@ -3,9 +3,9 @@
 
 
 "@aws-cdk/asset-awscli-v1@^2.2.177":
-  version "2.2.257"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.257.tgz#2c5bd5d3eba3463c6b4be6f40d96e45ab4d12ef5"
-  integrity sha512-8F3CfFWbaN1kgMpzCvqpLO948lEOvD5t++AGUnPNjNLPTkbdi1v8gY85HvrkXHvKkKjHrlo8u+twGmQb6le4FA==
+  version "2.2.258"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/asset-awscli-v1/-/asset-awscli-v1-2.2.258.tgz#638854db7ffe218076091360feb9dcc69e8bedba"
+  integrity sha512-TL3I9cIue0bAsuwrmjgjAQaEH6JL09y49FVQMDhrz4jJ2iPKuHtdrYd7ydm02t1YZdPZE2M0VNj6VD4fGIFpvw==
 
 "@aws-cdk/asset-kubectl-v20@^2.1.1":
   version "2.1.4"
@@ -3637,9 +3637,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "6.0.0-dev.20251209"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20251209.tgz#5dac38deb4546bc36623cfc1ff62c354a147e00f"
-  integrity sha512-h8VUiGoYJ8hIGCgvAalQVWbOon+qOiYWFE3B8+PRP05GIB+Tax4rLA1GjH4y9Keb+4/jEyKz7J9JcViqhwrjWA==
+  version "6.0.0-dev.20251210"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20251210.tgz#c3b00ab80013d73c120a7c033826b258309a46cb"
+  integrity sha512-IrJNDyAX7sgCsT+65JI8ymvq1Zm9bvioxnN8+F/LCtAQOpv3uWKVH7JbtLOEbi8+4W2HOut43A+z/MFn5m8F7A==
 
 typescript@~5.5:
   version "5.5.4"

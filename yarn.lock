@@ -18,9 +18,9 @@
   integrity sha512-j0xnccpUQHXJKPgCwQcGGNu4lRiC1PptYfdxBIH1L4dRK91iBxtSQHESRQX+yB47oGLaF/WfNN/aF3WXwlhikg==
 
 "@babel/code-frame@^7.0.0":
-  version "7.28.6"
-  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.28.6.tgz#72499312ec58b1e2245ba4a4f550c132be4982f7"
-  integrity sha512-JYgintcMjRiCvS8mMECzaEn+m3PfoQiyqukOMCCVQtoJGYJw8j/8LBJEiqkHLkfwCcs74E3pbAUFNg7d9VNJ+Q==
+  version "7.29.0"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.29.0.tgz#7cd7a59f15b3cc0dcd803038f7792712a7d0b15c"
+  integrity sha512-9NhCeYjq9+3uxgdtp20LSiJXJvN0FeCtNGpJxuMFZ1Kv3cWUNb6DOhJwUvcVCzKGR66cw4njwM6hrJLqgOwbcw==
   dependencies:
     "@babel/helper-validator-identifier" "^7.28.5"
     js-tokens "^4.0.0"
@@ -3617,9 +3617,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "6.0.0-dev.20260130"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260130.tgz#49ed694499527ad91c040083fff7858d447cf688"
-  integrity sha512-flWwLX5Xzh7to9d46u3LXfVDq9F0L0FtgnsYcx/SksqP05uHBIPnWfB6wWOZphTkb7GRSRKU13X/zBHmbzhXXg==
+  version "6.0.0-dev.20260131"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260131.tgz#8b4bbe415bf2d1021d2575763d978210f4d8d93a"
+  integrity sha512-/++NcAwkaAQQhHywdDCtTk421DIg3xSF9/FiA1yBNQVr3J7SDu20aoH9gzPoPcSX7nqdcULAk9KJdeiXeMAM0A==
 
 typescript@~5.5:
   version "5.5.4"

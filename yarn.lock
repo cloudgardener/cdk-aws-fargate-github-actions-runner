@@ -1521,12 +1521,12 @@ fast-xml-builder@^1.1.4:
     path-expression-matcher "^1.1.3"
 
 fast-xml-parser@^5.5.6:
-  version "5.5.7"
-  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.5.7.tgz#e1ddc86662d808450a19cf2fb6ccc9c3c9933c5d"
-  integrity sha512-LteOsISQ2GEiDHZch6L9hB0+MLoYVLToR7xotrzU0opCICBkxOPgHAy1HxAvtxfJNXDJpgAsQN30mkrfpO2Prg==
+  version "5.5.8"
+  resolved "https://registry.yarnpkg.com/fast-xml-parser/-/fast-xml-parser-5.5.8.tgz#929571ed8c5eb96e6d9bd572ba14fc4b84875716"
+  integrity sha512-Z7Fh2nVQSb2d+poDViM063ix2ZGt9jmY1nWhPfHBOK2Hgnb/OW3P4Et3P/81SEej0J7QbWtJqxO05h8QYfK7LQ==
   dependencies:
     fast-xml-builder "^1.1.4"
-    path-expression-matcher "^1.1.3"
+    path-expression-matcher "^1.2.0"
     strnum "^2.2.0"
 
 fastq@^1.6.0:
@@ -2808,10 +2808,10 @@ path-exists@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-4.0.0.tgz#513bdbe2d3b95d7762e8c1137efa195c6c61b5b3"
   integrity sha512-ak9Qy5Q7jYb2Wwcey5Fpvg2KoAc/ZIhLSLOSBmRmygPsGwkVVt0fZa0qrtMz+m6tJTAHfZQ8FnmB4MG4LWy7/w==
 
-path-expression-matcher@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/path-expression-matcher/-/path-expression-matcher-1.1.3.tgz#8bf7c629dc1b114e42b633c071f06d14625b4e0d"
-  integrity sha512-qdVgY8KXmVdJZRSS1JdEPOKPdTiEK/pi0RkcT2sw1RhXxohdujUlJFPuS1TSkevZ9vzd3ZlL7ULl1MHGTApKzQ==
+path-expression-matcher@^1.1.3, path-expression-matcher@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/path-expression-matcher/-/path-expression-matcher-1.2.0.tgz#9bdae3787f43b0857b0269e9caaa586c12c8abee"
+  integrity sha512-DwmPWeFn+tq7TiyJ2CxezCAirXjFxvaiD03npak3cRjlP9+OjTmSy1EpIrEbh+l6JgUundniloMLDQ/6VTdhLQ==
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -3634,9 +3634,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "6.0.0-dev.20260319"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260319.tgz#5d28aab609544c8d03c2e4a859275a4d4fb45b06"
-  integrity sha512-cPKC2xbgwa6CfD0IZ2ri818t0tkJdx2S+HCsFtO+n+H7ElNu0XecKUEgjzzq9dBeRWvuVXbk4Gfr98pQSOXtCA==
+  version "6.0.0-dev.20260320"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260320.tgz#5b1934ce54a3f08a0535f34ab6627806b27b670c"
+  integrity sha512-q5lk2al1i8WxqGYCvt322ED1G8jpK3MLBM9DacpRuL3gCs9PqWKjIWPoQ8bs745ONHLQEsJnp3Jww8/MSaELaQ==
 
 typescript@~5.5:
   version "5.5.4"

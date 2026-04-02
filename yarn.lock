@@ -2897,10 +2897,10 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-projen@^0.99.26:
-  version "0.99.26"
-  resolved "https://registry.yarnpkg.com/projen/-/projen-0.99.26.tgz#fa35d04140a7154439593a64e597f96e33acb97b"
-  integrity sha512-FGaMrSa+BgydIs61enxqgHPePB4r3pOTPFldaN+OmWW65WDWoMyGAqVEb3UaGRtiX6rP9qeQVnvufnEfZfaPRg==
+projen@^0.99.27:
+  version "0.99.27"
+  resolved "https://registry.yarnpkg.com/projen/-/projen-0.99.27.tgz#43c74d6bffb71adc531376509359563d328b420c"
+  integrity sha512-/sDsmoVe5BKRQQ0IDzR1Eg2ezGpKtUU8aKv7U0NmXHxG5pW8nXJm2RY1pevfoAKzlVagtUZvUhLAs6EYLkPkOg==
   dependencies:
     "@iarna/toml" "^2.2.5"
     case "^1.6.3"
@@ -3639,9 +3639,9 @@ typescript@^4.9.5:
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 typescript@next:
-  version "6.0.0-dev.20260324"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260324.tgz#df7e5c9505b69c3b83e9c84f1cf0cf70c8115069"
-  integrity sha512-+Vhswp/n1W3i/33j4ar/yeVz4xuI+7gmHkKKZw5eM2zN5PDB4umd36EpDDLjRO0sgH31G1k4bsu7kr84MfTtug==
+  version "6.0.0-dev.20260401"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-6.0.0-dev.20260401.tgz#c29ec5a589981bc36ebb8b5890f71f11341d333c"
+  integrity sha512-trGd1r4vZ89ABUR8VnF2Lsl/Tb9ObfQNH3r+kF8NFVSLCq3b3x96McL6pXMnH/aa4tutrziJZvb7zm3WsAEfCA==
 
 typescript@~5.5:
   version "5.5.4"
